@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reshape from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-reshape@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-reshape/tags). For example,
+
+```javascript
 import reshape from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-reshape@v0.1.0-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ var out = reshape( x, [ 2, 3 ], [ 3, 2 ], true );
 <body>
 <script type="module">
 
-import reshape from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-reshape@v0.1.0-esm/index.mjs';
+import reshape from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-reshape@esm/index.mjs';
 
 var x = [
     [ 1, 2, 3, 4 ],
