@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-reshape",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Reshape a nested array into another nested array having a desired shape.",
   "license": "Apache-2.0",
   "author": {
